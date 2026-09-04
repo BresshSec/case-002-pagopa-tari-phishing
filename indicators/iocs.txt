@@ -1,0 +1,95 @@
+# Case 002 — PagoPA / TARI Refund Phishing
+# Analysis date: 2026-09-04
+#
+# Indicators associated with the campaign.
+# Domains and URLs under the CERT-AGID section were validated
+# against the publicly released CERT-AGID IoC dataset.
+#
+# Defanged format is used to prevent accidental navigation.
+
+
+# ============================================================
+# CERT-AGID CONFIRMED DOMAINS
+# ============================================================
+
+rimborso[.]intp[.]cam
+intp[.]cam
+
+tari[.]intv[.]cam
+intv[.]cam
+
+tari[.]intw[.]cam
+intw[.]cam
+
+rimborso[.]intq[.]cam
+intq[.]cam
+
+rimborso[.]intr[.]cam
+intr[.]cam
+
+rimborso[.]into[.]cam
+into[.]cam
+
+rimborso[.]intl[.]cam
+intl[.]cam
+
+rimborso[.]intj[.]cam
+intj[.]cam
+
+rimborso[.]inty[.]cam
+inty[.]cam
+
+pago[.]inth[.]cam
+inth[.]cam
+
+
+# ============================================================
+# CERT-AGID CONFIRMED URL PATTERN
+# ============================================================
+
+hxxps://rimborso[.]intp[.]cam/it
+hxxps://rimborso[.]intp[.]cam/TzfvloMAFK/api
+hxxps://rimborso[.]intp[.]cam/TzfvloMAFK/api/input
+hxxps://rimborso[.]intp[.]cam/wf167_it/header.html
+hxxps://rimborso[.]intp[.]cam/wf167_it/footer.html
+
+
+# ============================================================
+# INDEPENDENTLY OBSERVED INFRASTRUCTURE
+# Not listed as IPv4 IoC in the examined CERT-AGID dataset
+# ============================================================
+
+170[.]106[.]154[.]175
+
+
+# ============================================================
+# INDEPENDENTLY OBSERVED JAVASCRIPT ARTIFACT
+# ============================================================
+
+Filename:
+index-62f0ed43.js
+
+Path:
+/assets/index-62f0ed43.js
+
+MD5:
+B2A8DA0D998843D40DFB974D6BA580AC8
+
+SHA1:
+9C071ED4737777C33F8B22A8994C7A467551C284
+
+SHA256:
+5C022DF588D53DBDF4106A39C2439A30783ACD48553A47CB25DDFE5305DE32B8
+
+
+# ============================================================
+# NOTES
+# ============================================================
+
+# AS132203 was observed in association with the hosting IP.
+# ASN/provider information is infrastructure metadata and does
+# not constitute threat-actor attribution.
+#
+# Passive DNS records sharing the same IP were not automatically
+# classified as IoCs. Only sufficiently correlated indicators
+# are included above.
